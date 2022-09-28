@@ -78,12 +78,11 @@
 			});
 		}
 
-
-		var destinationSlider = document.querySelectorAll('.destination-slider');
+		var destinationSlider = document.querySelectorAll('.destination-slider-1');
 
 		if ( destinationSlider.length > 0 ) {
 			var desSlider = tns({
-				container: ".destination-slider",
+				container: ".destination-slider-1",
 				mouseDrag: true,
 				items: 1,
 				axis: "horizontal",
@@ -94,7 +93,7 @@
 				gutter: 30,
 				autoplay: true,
 				autoplayButtonOutput: false,
-				controlsContainer: "#destination-controls",
+				controlsContainer: "#destination-controls-1",
 				responsive: {
 					350: {
 						items: 1
@@ -128,7 +127,7 @@
 				gutter: 30,
 				autoplay: true,
 				autoplayButtonOutput: false,
-				controlsContainer: "#destination-controls",
+				controlsContainer: "#destination-controls-2",
 				responsive: {
 					350: {
 						items: 1
@@ -162,7 +161,7 @@
 				gutter: 30,
 				autoplay: true,
 				autoplayButtonOutput: false,
-				controlsContainer: "#destination-controls",
+				controlsContainer: "#destination-controls-3",
 				responsive: {
 					350: {
 						items: 1

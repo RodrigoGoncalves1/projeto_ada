@@ -10193,6 +10193,10 @@ textarea {
   margin-bottom: 0;
   font-size: 14px; }
 
+.section {
+  margin-bottom: -5px;
+}
+
 .section-2 {
   padding: 10rem 0 !important; }
   @media (max-width: 991.98px) {
@@ -10499,3 +10503,6 @@ textarea {
       .site-footer .social li a:hover {
         background: #f59b74;
         color: #fff; }
+
+
+        
